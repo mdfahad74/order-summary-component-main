@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+   margin:0;
+   background-image:url("../images/pattern-background-desktop.svg");
+   background-repeat: no-repeat;
+   background-color: #E0E8FF;
+   background-color: hsl(225, 100%, 94%);
+   color: #7280A7;
+   font-weight: 500;
+   font-family: 'Red Hat Display', sans-serif;
+ }
+.main-container{
+  width: 26%;
+  height: 84%;
+  position: absolute;
+  top: 8%;
+  left:37%;
+  border-radius: 5%;
+  background-color: white;
+}
+.container-main-img{
+  position: relative;
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.secondary-container{
+  text-align: center;
+  padding: 0 2rem;
+}
+.price-info{
+  position: relative;
+  margin: 1rem 0 .5rem;
+  height: 50px;
+  padding: 1rem;
+  background-color: #F5F7FF;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5.5%;
+}
+.music-icon{
+  float:left;
+  width: 20%;
+}
+.plans{
+  position: absolute;
+  left: 25%;
+  padding: 2% 4%;
+  text-align: left;
+  font-size: 0.9rem;
+}
+h3{
+  padding: 0;
+  margin: 0;
+}
+p{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.change{
+  float: right;
+  padding-top: 10px;
+}
+.change:hover{
+   color:#7e75f5;
+   text-decoration:none;
+}
+.button{
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 9px;
+  box-shadow: 0 4px 10px #bab6ed;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3829E0;
+  padding: 8px;
+  text-decoration: none;
+}
+.button:hover{
+  background: #7e75f5;
+ text-decoration: none;
+}
+.last-container{
+
+  margin-top: 0;
+  padding: 0;
+}
+.cancel{
+  margin-top: 5%;
+  text-decoration: none;
+  color: #7280A7;
+  font-weight: 700;
+}
+.cancel:hover{
+  color:#1F2F56;
+}
+.dark-blue{
+  color:#1F2F56;
+}
+.attribution {
+   font-size: 11px;
+   text-align: center;
+ }
+.attribution a {
+  color: #6D6F78;
+  color: hsl(228, 45%, 44%);
+ }
+ @media only screen and (max-width: 600px) {
+   body{
+     background-image: url("../images/pattern-background-mobile.svg");
+   }
+   .main-container{
+     width: 90%;
+     height: 86%;
+     position: absolute;
+     top: 7%;
+     left:5%;
+     border-radius: 5%;
+     background-color: white;
+   }
+ }
+
+@media only screen and (max-width: 375px) {
+  .main-container{
+    width: 90%;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left:5%;
+    border-radius: 5%;
+    background-color: white;
+  }
+}
