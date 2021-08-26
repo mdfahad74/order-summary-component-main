@@ -37,7 +37,8 @@ body{
 }
 .music-icon{
   float:left;
-  width: 20%;
+  margin: 0;
+  padding: 3px;
 }
 .plans{
   position: absolute;
@@ -57,7 +58,7 @@ p{
 }
 .change{
   float: right;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .change:hover{
    color:#7e75f5;
