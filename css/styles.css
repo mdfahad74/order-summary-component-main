@@ -10,11 +10,9 @@ body{
    font-family: 'Red Hat Display', sans-serif;
  }
 .main-container{
-  width: 26%;
+  width: 400px;
   height: 84%;
-  position: absolute;
-  top: 8%;
-  left:37%;
+  margin: 2rem auto;
   border-radius: 5%;
   background-color: white;
 }
@@ -26,7 +24,7 @@ body{
 }
 .secondary-container{
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .price-info{
   position: relative;
@@ -105,28 +103,11 @@ p{
   color: #6D6F78;
   color: hsl(228, 45%, 44%);
  }
- @media only screen and (max-width: 600px) {
-   body{
-     background-image: url("../images/pattern-background-mobile.svg");
-   }
-   .main-container{
-     width: 90%;
-     height: 86%;
-     position: absolute;
-     top: 7%;
-     left:5%;
-     border-radius: 5%;
-     background-color: white;
-   }
- }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   .main-container{
     width: 90%;
     height: 86%;
-    position: absolute;
-    top: 7%;
-    left:5%;
     border-radius: 5%;
     background-color: white;
   }
